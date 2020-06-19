@@ -1,0 +1,25 @@
+/* modal-window */
+
+#overlay{
+  /* 要素を重ねたとき一番上に来るように */
+  z-index:1;
+
+  /* 画面全体をうす暗くする設定 */
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  /* 画面の中央に中の要素が表示されるようにする */
+  display: flex;
+
+  /* 横 */
+  align-items: center;
+  /* 縦 */
+  justify-content: center;
+}
+
+
+/* -------modal-window------- */
