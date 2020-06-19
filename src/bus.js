@@ -1,0 +1,1 @@
+let bus = new Vue();
